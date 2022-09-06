@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>module 9.5</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- nevigation -->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/media/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#smartphone">Smartphone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#begs">Begs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#suscribe">suscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- this is caraousle -->
+
+    <div class="container bg-style">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner carousel_bg">
+          <div class="carousel-item active">
+            <div class="row align-items-center pad-caro">
+              <div class="col-6">
+                <h1>Macbook pro</h1>
+                <small style="color: rgb(165, 148, 148)">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Exercitationem, voluptas. Perferendis minima dignissimos
+                  cupiditate debitis deserunt omnis consequuntur dolor
+                  molestiae!
+                </small>
+                <br />
+                <br />
+                <button class="btn btn-danger">Buy now</button>
+              </div>
+              <div class="col-6">
+                <img
+                  src="media/banner-products/product-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center pad-caro">
+              <div class="col-6">
+                <h1>Microlab speker</h1>
+                <small style="color: rgb(165, 148, 148)">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Exercitationem, voluptas. Perferendis minima dignissimos
+                  cupiditate debitis deserunt omnis consequuntur dolor
+                  molestiae!
+                </small>
+                <br />
+                <br />
+                <button class="btn btn-danger">Buy now</button>
+              </div>
+              <div class="col-6">
+                <img
+                  src="/media/banner-products/slider-1.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center pad-caro">
+              <div class="col-6">
+                <h1>JBL Speker</h1>
+                <small style="color: rgb(165, 148, 148)">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Exercitationem, voluptas. Perferendis minima dignissimos
+                  cupiditate debitis deserunt omnis consequuntur dolor
+                  molestiae!
+                </small>
+                <br />
+                <br />
+                <button class="btn btn-danger">Buy now</button>
+              </div>
+              <div class="col-6">
+                <img
+                  src="/media/banner-products/slider-3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--  this is card section mobile -->
+
+    <div
+      class="container shoes"
+      id="smartphone"
+      style="margin-top: 80px; margin-bottom: 40px"
+    >
+      <h3>Smartphone</h3>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/media/phone/phone-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Earj shoe</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nostrum corporis earum nulla mollitia qui praesentium maxime
+                minima voluptates iusto natus.
+              </p>
+            </div>
+            <div class="card-footer">
+              <h1>$120</h1>
+              <button type="button" class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/media/phone/phone-2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nike shoe</h5>
+              <p class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Eveniet quibusdam, assumenda quae ad explicabo corrupti rerum
+                sequi minus numquam impedit.
+              </p>
+            </div>
+            <div class="card-footer">
+              <h1>$120</h1>
+              <button type="button" class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="/media/phone/phone-3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bata shoe</h5>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate et repellat earum impedit excepturi perferendis hic
+                debitis nostrum perspiciatis placeat.
+              </p>
+            </div>
+            <div class="card-footer">
+              <h1>$120</h1>
+              <button type="button" class="btn btn-danger">Buy now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section  -->
+
+    <div class="container">
+      <h1 style="text-align: center">Caragories</h1>
+      <div class="container d-flex justify-content-center align-items-center">
+        <div
+          style="
+            height: 12px;
+            width: 200px;
+            background-color: sandybrown;
+            border-radius: 10px;
+          "
+        ></div>
+      </div>
+      <div class="row" style="height: 400px">
+        <div class="col-3 d-flex justify-content-center align-items-center">
+          <img src="/media/Categories/bag.png" alt="" />
+        </div>
+        <div class="col-3" style="margin-top: 100px">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="/media/Categories/perfume.png" alt="" />
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center"
+            style="margin-top: 50px"
+          >
+            <img src="/media/Categories/shoe.png" alt="" />
+          </div>
+        </div>
+        <div class="col-6">
+          <img
+            style="width: 100%; margin-top: 50px"
+            src="/media/Categories/pale-order.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
